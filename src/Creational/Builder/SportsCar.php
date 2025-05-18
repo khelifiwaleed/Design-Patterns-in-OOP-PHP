@@ -1,7 +1,7 @@
 <?php
-namespace DesignPatterns\Builder;
+namespace DesignPatterns\Creational\Builder;
 
-class FamilyCar implements CarInterface
+class SportsCar implements CarInterface
 {
     private string $engine;
     private string $color;
@@ -24,6 +24,6 @@ class FamilyCar implements CarInterface
 
     public function show(): void
     {
-        echo "Family Car - Engine: {$this->engine}, Color: {$this->color}, Doors: {$this->doors}\n";
+        echo "Sports Car - Engine: {$this->engine}, Color: {$this->color}, Doors: {$this->doors}\n";
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Builder;
+namespace DesignPatterns\Creational\Builder;
 
 class CarBuilder
 {

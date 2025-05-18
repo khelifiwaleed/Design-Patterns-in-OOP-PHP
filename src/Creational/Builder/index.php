@@ -1,11 +1,9 @@
 <?php
 
-use DesignPatterns\Builder\{
-    FamilyCar,
-    SportsCar,
-    CarBuilder,
-    CarDirector
-};
+use DesignPatterns\Creational\Builder\{CarBuilder};
+use DesignPatterns\Creational\Builder\CarDirector;
+use DesignPatterns\Creational\Builder\FamilyCar;
+use DesignPatterns\Creational\Builder\SportsCar;
 
 // On crée un builder avec un objet FamilyCar (modèle de voiture familiale)
 $familyCarBuilder = new CarBuilder(new FamilyCar());
