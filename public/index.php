@@ -14,4 +14,6 @@ try {
     die("Échec de la connexion : " . $e->getMessage());
 }
 
+require_once __DIR__ . '/../src/Builder/index.php'; // Builder Pattern
+
 

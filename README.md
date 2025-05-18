@@ -1,5 +1,6 @@
 🧠 A collection of classic and modern design patterns implemented in clean, well-documented PHP OOP. Useful for learning, practicing, or applying reusable solutions in real-world projects.
 
+
 🧩 Introduction to Design Patterns in PHP
 Design Patterns are reusable solutions to common problems encountered in software design. They are not ready-to-copy code, but rather proven templates for problem-solving.
 
@@ -34,3 +35,16 @@ Ils sont généralement classés en trois grandes catégories :
     Comportementaux (Behavioral) : Concernent la communication entre objets.
     
     Exemples : Strategy, Observer, State, Command, Iterator
+
+Créationnels (Creational) : Concernent la création d’objets.
+
+Exemples : Singleton, Factory, Abstract Factory, Builder, Prototype
+
+Structurels (Structural) : Concernent la composition des classes et des objets.
+
+Exemples : Adapter, Bridge, Composite, Decorator, Facade
+
+Comportementaux (Behavioral) : Concernent la communication entre objets.
+
+Exemples : Strategy, Observer, State, Command, Iterator
+
